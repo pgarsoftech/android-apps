@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Pegloria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #a855f7;
+            --accent: #22c55e;
+            --background: #0f172a;
+            --surface: rgba(30, 41, 59, 0.7);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.1) 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .policy-card {
+            background: var(--surface);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 32px;
+            padding: 60px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo-symbol {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            margin: 0 auto 24px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            transform: rotate(-10deg);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .last-updated {
+            color: var(--accent);
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            background: var(--primary);
+            margin-right: 16px;
+            border-radius: 4px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 24px;
+        }
+
+        li {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            padding-left: 28px;
+            position: relative;
+        }
+
+        li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .policy-card {
+                padding: 40px 24px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="policy-card">
+            <header>
+                <div class="logo-symbol">⬢</div>
+                <h1>Privacy Policy</h1>
+                <p class="last-updated">Last Updated: April 11, 2026</p>
+            </header>
+
+            <section>
+                <h2>Introduction</h2>
+                <p>Welcome to <span class="highlight">Pegloria</span>. Your privacy is paramount to us. This policy
+                    outlines how our application collects, uses, and safeguards your information when you enjoy our
+                    premium puzzle experience.</p>
+            </section>
+
+            <section>
+                <h2>Information Collection</h2>
+                <p>Pegloria is designed to be a privacy-first application. We do not require account registration or
+                    collect personal identifying information like names or email addresses. However, to provide a
+                    high-quality experience, we may collect:</p>
+                <ul>
+                    <li><span class="highlight">Game Statistics</span>: Locally stored data regarding moves, time, and
+                        high scores.</li>
+                    <li><span class="highlight">Device Identifiers</span>: Anonymous IDs provided by mobile operating
+                        systems for ad attribution and basic analytics.</li>
+                    <li><span class="highlight">Technical Data</span>: Device model, OS version, and language settings
+                        to ensure optimal rendering and performance.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Third-Party Services</h2>
+                <p>To support the ongoing development of Pegloria, we utilize specialized third-party services that may
+                    collect data in accordance with their own policies:</p>
+                <ul>
+                    <li><span class="highlight">Google AdMob</span>: Used for displaying advertisements. They may
+                        collect location data (IP based) and advertising IDs to show relevant content.</li>
+                    <li><span class="highlight">Google Play Services</span>: Used for game services and application
+                        integrity.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Children's Privacy</h2>
+                <p>Pegloria complies with the Children's Online Privacy Protection Act (COPPA). We do not knowingly
+                    collect information from children under the age of 13. Our puzzle gameplay is family-friendly, and
+                    we ensure that advertisements shown prioritize safety and appropriateness.</p>
+            </section>
+
+            <section>
+                <h2>GDPR Rights</h2>
+                <p>If you are a resident of the European Economic Area (EEA), you have specific data protection rights.
+                    You can reset your advertising identifier or delete your local game data at any time via your device
+                    settings or by clearing the application cache.</p>
+            </section>
+
+            <section>
+                <h2>Changes to This Policy</h2>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the
+                    new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
+            </section>
+
+            <section>
+                <h2>Contact Us</h2>
+                <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
+                <a href="mailto:pgsoftechsolutions@gmail.com" class="btn">Email Support</a>
+            </section>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Pegloria. All Rights Reserved.
+        </div>
+    </div>
+</body>
+
+</html>
